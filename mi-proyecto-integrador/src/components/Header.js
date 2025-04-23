@@ -1,16 +1,14 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 
-const Header = () => {
+function Header() {
   return (
-    <header style={{ background: '#ccc', padding: '1em' }}>
+    <header style={{ background: '#ddd', padding: '1rem' }}>
       <nav>
-        <Link to="/">Inicio</Link> |{' '}
-        <Link to="/about">Acerca de</Link> |{' '}
-        <Link to="/contact">Contacto</Link>
+        <Link to="/">Inicio</Link> | <Link to="/about">Sobre el Proyecto</Link> | <Link to="/contact">Contacto</Link>
       </nav>
     </header>
   );
-};
+}
 
 export default Header;

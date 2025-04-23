@@ -1,11 +1,11 @@
 import React from 'react';
 
-const Footer = () => {
+function Footer() {
   return (
-    <footer style={{ background: '#eee', padding: '1em', marginTop: '2em' }}>
-      <p>© 2025 - Proyecto Integrador</p>
+    <footer style={{ background: '#eee', padding: '1rem', marginTop: '2rem' }}>
+      <p>© 2025 Mi Proyecto Integrador</p>
     </footer>
   );
-};
+}
 
 export default Footer;
