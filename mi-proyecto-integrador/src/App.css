@@ -24,6 +24,15 @@
   color: white;
 }
 
+.container {
+  width: 80%;
+  margin: 0 auto;
+  padding: 45px;
+  background-color: white;  /* O cualquier color que desees */
+  border-radius: 8px;  /* Opcional: bordes redondeados */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);  /* Sombra sutil */
+}
+
 .App-link {
   color: #61dafb;
 }
@@ -36,3 +45,4 @@
     transform: rotate(360deg);
   }
 }
+

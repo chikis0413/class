@@ -2,11 +2,13 @@ import React from 'react';
 
 function About() {
   return (
+    <div className="container">
     <div style={{ padding: '2rem' }}>
       <h2>Sobre el Proyecto</h2>
       <p>
-        Este proyecto fue desarrollado como parte del curso de React. Se enfoca en la creación de una aplicación web con componentes reutilizables y navegación usando React Router.
+        Desarrollo de una plataforma tecnológica, para monitorear el estado de la salud mental de los estudiantes de la Universidad San Buenaventura de Bogotá  
       </p>
+    </div>
     </div>
   );
 }
